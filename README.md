@@ -1,6 +1,6 @@
 # 🤖 Personal AI Assistant with Google Gemini, Gmail & Calendar (MCP + n8n)
 
-This project builds a **personal AI assistant** powered by **Google Gemini** and orchestrated with **n8n**, using the **Model Context Protocol (MCP)** to securely interact with **Gmail**, **Google Calendar**, and **Google Sheets (CRM-style contacts)**.
+This project builds a personal AI assistant powered by Google Gemini and orchestrated with n8n, using the Model Context Protocol (MCP) to securely interact with Gmail, Google Calendar, and Google Sheets (CRM-style contacts).
 
 The assistant understands natural language instructions and performs real actions such as drafting emails, managing calendar events, and updating contact data—while maintaining conversational memory.
 
@@ -27,9 +27,9 @@ The assistant understands natural language instructions and performs real action
 - Use contact data for email and calendar actions
 
 ### 🧠 AI Intelligence
-- **Google Gemini 2.5 Pro** for reasoning and planning
-- **MCP (Model Context Protocol)** for tool-based execution
-- **Conversation memory** for follow-up questions
+- Google Gemini 2.5 Pro for reasoning and planning
+- MCP (Model Context Protocol) for tool-based execution
+- Conversation memory for follow-up questions
 - Multi-step task execution from a single instruction
 
 ---
@@ -84,15 +84,15 @@ Create and attach the following credentials:
 ---
 
 ### 3️⃣ MCP Configuration
-1. Copy the **MCP Server Trigger URL**
-2. Paste it into the **MCP Client node** (`sseEndpoint`)
+1. Copy the MCP Server Trigger URL.
+2. Paste it into the MCP Client node (`sseEndpoint`)
 3. Ensure all tool nodes are connected to the MCP trigger
 
 ---
 
 ### 4️⃣ Activate the Workflow
 - Enable the workflow
-- Open the **Chat UI** from the Chat Trigger
+- Open the Chat UI from the Chat Trigger
 - Start issuing natural language commands
 
 ---
@@ -131,3 +131,8 @@ Create and attach the following credentials:
 - Replace Sheets with a real CRM
 - Add task management (e.g., Google Tasks, Notion)
 
+
+## Author
+**Osama Shakeel**
+
+Senior AI Engineer
